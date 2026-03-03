@@ -1,4 +1,3 @@
-```
 # FF Info Discord Bot
 
 A Discord bot to fetch **Free Fire account information** using the Cosmos API.
@@ -45,7 +44,7 @@ pip install -r requirements.txt
 
 Contents of `requirements.txt`:
 
-```
+```text
 discord.py
 aiohttp
 ```
@@ -54,7 +53,7 @@ aiohttp
 
 Create a file named `config.json` in the same folder as your bot:
 
-```
+```json
 {
   "token": "TOKEN",
   "prefix": "!",
@@ -63,7 +62,7 @@ Create a file named `config.json` in the same folder as your bot:
 ```
 
 - Replace `"TOKEN"` with your Discord bot token.
-- Replace `"channel_id"` with the channel ID where the bot should respond.
+- Replace `"allowed_channel_id"` with the channel ID where the bot should respond.
 - `"prefix"` can be any character(s) you want for bot commands (default: `!`).
 
 ### 4. Run the Bot
@@ -84,7 +83,7 @@ Bot should now be online and ready to respond in the allowed channel.
 
 ### Example Usage
 
-```
+```text
 !info 1234567890
 ```
 
@@ -121,4 +120,3 @@ The bot will reply with an embed containing:
 
 This project is for personal use and non-commercial projects.  
 Redistribution or modification is allowed with credit.
-```
