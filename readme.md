@@ -68,7 +68,7 @@ Create a file named `config.json` in the same folder as your bot:
 ### 4. Run the Bot
 
 ```bash
-python bot.py
+python main.py
 ```
 
 Bot should now be online and ready to respond in the allowed channel.
